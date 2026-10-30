@@ -26,3 +26,6 @@ jobs:
       - name: Test
         run: |
           python manage.py test
+
+      - name: Deploy
+        run: echo "Deploy stage complete - tests passed, so the application would deploy here."
